@@ -1,0 +1,16 @@
+{
+  "name": "backend",
+  "private": true,
+  "scripts": {
+    "dev": "ts-node-dev src/server.ts"
+  },
+  "dependencies": {
+    "express": "latest",
+    "prisma": "latest",
+    "dotenv": "latest"
+  },
+  "devDependencies": {
+    "ts-node-dev": "latest",
+    "typescript": "latest"
+  }
+}
